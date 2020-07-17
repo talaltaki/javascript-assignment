@@ -39,7 +39,7 @@ function brickCalculator(floor) {
     } if (floor <= 20) {
         return (10 * 15 * 1000) + (floor * 12 * 1000);
     } else {
-        return (20 * 12 * 1000) + (floor * 10 * 1000);
+        return (10 * 15 * 1000) + (20 * 12 * 1000) + (floor * 10 * 1000);
     }
 }
 
